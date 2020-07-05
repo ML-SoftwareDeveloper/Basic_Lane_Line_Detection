@@ -23,7 +23,7 @@ high_thresh = 150
 canny_img = cv2.Canny(blur_gray,low_thresh,high_thresh) #outputs a binary image
 
 # Mask
-margin = 50
+margin = 100
 vertices = np.array([[0,y_size],[x_size/2-margin,y_size/2+margin],[x_size/2+margin,y_size/2+margin],[x_size,y_size]],np.int32)
 mask = np.zeros_like(canny_img)
 cv2.fillPoly(mask,[vertices],255)
@@ -59,8 +59,8 @@ right_line_params = np.polyfit(right_line_xs,right_line_ys,1)
 
 
 
-y_min = 400
-y_max = 540
+y_min = int(y_size/2+margin)
+y_max = y_size
 
 # Draw left lane line
 left_x_min = int((y_min-left_line_params[1]) / left_line_params[0])
