@@ -1,5 +1,5 @@
 # Basic_Lane_Line_Detection
-Detection of lane lines using only the computer vision techniques.
+Detection of lane lines using basic computer vision techniques.
 
 Steps:
 1. Read input image
