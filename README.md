@@ -18,6 +18,8 @@ Detection of lane lines using basic computer vision techniques.
 
 3. Run the following command
 
-> python lane_detection.py
+```
+    python lane_detection.py
+```
 
 
