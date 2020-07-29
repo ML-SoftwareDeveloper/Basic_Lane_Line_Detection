@@ -1,5 +1,6 @@
 # Basic_Lane_Line_Detection
 Detection of lane lines using basic computer vision techniques.
 
-Output:
+### Output:
+
 ![](output/out.gif)
