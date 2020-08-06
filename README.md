@@ -1,25 +1,11 @@
 # Basic_Lane_Line_Detection
-Detection of lane lines using basic computer vision techniques.
+
+The project uses basic computer vision techniques to detect the lane lines on the road. The jupyter notebook contains the steps and well commented code for a proper understanding of the methods used.
 
 ### Output:
 
 ![](output/out.gif)
 
 
-### Steps to run the code
-
-1. Make sure the following are installed in your computer
-
-    1. Python 3
-    2. OpenCV
-    3. Numpy
-
-2. Clone this repository and change working directory to the master directory
-
-3. Run the following command
-
-```
-    python lane_detection.py
-```
 
 
